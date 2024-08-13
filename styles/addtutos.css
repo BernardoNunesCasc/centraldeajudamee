@@ -1,0 +1,109 @@
+.go-back-tuto {
+    font-size: 0.8rem;
+    color: #707070;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.create-options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.create-options div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+    font-size: 0.9rem;
+}
+
+.create-options div input {
+    padding: 13px 19px;
+    font-weight: 600;
+    border-radius: 12px;
+    border: 1px solid #999999;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.03);
+}
+
+.create-options div input::placeholder {
+    font-size: 0.7rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.type-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.create-tuto-btn {
+    color: white;
+    background-color: rgba(127,71,222,255);
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 200px;
+    cursor: pointer;
+    border: 1px solid rgba(127,71,222,255);
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.create-tuto-btn:hover {
+    color: rgba(127,71,222,255);
+    background-color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: 100px;
+    padding-bottom: 8px;
+}
+
+form label {
+    font-size: 0.8rem;
+    color: black;
+    font-weight: 600;
+}
+
+.passoText {
+    height: 200px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.select-el {
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.03);
+    border: 1px solid #999999;
+}
+
+.select-el:focus {
+    outline: none;
+}
+
+.select-el:invalid {
+    color: gray;
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+
+.bhidden {
+    display: none;
+}
+

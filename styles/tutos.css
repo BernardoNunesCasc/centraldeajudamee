@@ -1,0 +1,139 @@
+
+
+.container {
+    padding-top: 110px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.upper {
+    width: 700px;  
+    display: flex;
+    flex-direction: column;
+    gap: 15px;  
+}
+
+.add-tuto {
+    padding: 10px;
+    border: none;
+    background-color: rgba(127,71,222,255);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border: 1px solid rgba(127,71,222,255);
+    transition: all 0.3s;
+    width: 200px;
+    text-decoration: none;
+}
+
+.add-tuto:hover {
+    background-color: white;
+    color: rgba(127,71,222,255);
+}
+
+.add-tuto:active {
+    opacity: 0.5;
+}
+
+.add-tuto span {
+    transform: translateY(0.5px);
+}
+
+.container h2 {
+    color: rgba(127,71,222,255);
+    padding-bottom: 20px;
+}
+
+.grid-upper {
+    width: 700px;
+    margin: 25px 0px 10px;
+    padding: 16px 19px;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 130px;
+}
+
+.grid-upper h2 {
+    color: black;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 700px;
+    gap: 10px;
+}
+
+.tuto-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #868686;
+    padding: 6px 15px;
+    border-radius: 10px;
+}
+
+.tuto-title {
+    color: #707070;
+    font-weight: 600;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.type {
+    color: #707070;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.tuto-delete, .tuto-edit {
+    color: #707070;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 20px;
+    transition: all 0.2s;
+}
+
+.tuto-delete:hover, .tuto-edit:hover {
+    background-color: cyan;
+}
+
+.go-back-tuto {
+    font-size: 0.8rem;
+    color: #707070;
+    text-decoration: none;
+    transition: 0.1s;
+    display: flex;
+    flex-direction: row;
+}
+
+.arrow {
+    transform: translateY(-3.5px);
+    scale: 70%;
+}
+
+.go-back-tuto:hover {
+    opacity: 0.8;
+}

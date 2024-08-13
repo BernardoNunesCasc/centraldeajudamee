@@ -1,0 +1,169 @@
+.go-back-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.go-back-container span {
+  scale: 80%;
+  color: black;
+}
+
+.go-back-btn {
+  text-decoration: none;
+  font-size: 0.95rem;
+  color: black;
+}
+
+.tutorial-container {
+    padding-right: 55px;
+    padding-left: 315px;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    display: none;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .tutorial-active {
+    display: flex;
+  }
+
+  .gif-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gif-container img {
+    width: 848px;
+    height: 448px;
+  }
+
+  .top-section h2 {
+    font-size: 1.9rem;
+    color: rgba(127,71,222,255);
+    padding-bottom: 10px;
+  }
+
+  .top-section p {
+    max-width: 900px;
+  }
+
+  .tutorial-section {
+    max-width: 800px;
+  }
+
+  .tutorial-section h2 {
+    margin-bottom: 10px;
+  }
+
+  .error-container {
+    padding-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 800px;
+    padding-bottom: 30px;
+  }
+
+  .error-img-container {
+    display: flex;
+  }
+
+  .error-img-container img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .error-text {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: rgba(127,71,222,255);
+  }
+
+  @media screen and (max-height: 750px) {
+    .error-container {
+      height: 550px;
+    }
+
+    .error-img-container img {
+      width: 300px;
+      height: 300px;
+    }
+
+    .error-text {
+      font-size: 1.3rem;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .gif-container {
+        scale: 78%;
+    }
+  }
+
+  @media screen and (max-width: 1050px) {
+    .gif-container {
+        scale: 70%;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+
+    .tutorial-container {
+        font-size: 0.9rem;
+    }
+    .tutorial-container {
+        padding-right: 55px;
+        padding-left: 215px;
+      }
+
+      .top-section h2 {
+        font-size: 1.7rem;
+      }
+
+      .gif-container {
+        scale: 70%;
+        transform: translate(130px);
+    }
+  }
+
+  
+
+
+
+  @media screen and (max-width: 750px) {
+    .menu-icon {
+        color: white;
+        padding-left: 40px;
+        padding-right: 20px;
+        visibility: visible;
+        display: block;
+        scale: 80%;
+    }
+
+    .top-section h2 {
+      font-size: 1.6rem;
+      color: #32008E;
+      padding-bottom: 10px;
+    }
+
+    .tutorial-container {
+        padding-right: 55px;
+        padding-left: 10px;
+    }
+
+    .gif-container img{
+        width: 600px;
+        height: 303px;
+    }
+
+    .tutorial-container {
+        font-size: 0.8rem;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+  }
